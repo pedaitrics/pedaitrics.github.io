@@ -755,18 +755,18 @@ img { max-width: 100%; display: block; }
 }
 
 .speakers-placeholder-icon {
-  width: 64px;
-  height: 64px;
+  width: 36px;
+  height: 36px;
   background: var(--sky-light);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 1.25rem;
+  margin: 0 auto 1rem;
 }
 .speakers-placeholder-icon svg {
-  width: 30px;
-  height: 30px;
+  width: 18px;
+  height: 18px;
   stroke: var(--teal);
 }
 
