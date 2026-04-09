@@ -744,13 +744,43 @@ img { max-width: 100%; display: block; }
   line-height: 1.4;
 }
 
-.speakers-note {
-  text-align: center;
-  font-size: .85rem;
-  color: var(--text-muted);
-  font-style: italic;
-  max-width: 500px;
+.speakers-placeholder {
+  max-width: 540px;
   margin: 0 auto;
+  text-align: center;
+  padding: 3rem 2rem;
+  border: 2px dashed var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--off-white);
+}
+
+.speakers-placeholder-icon {
+  width: 64px;
+  height: 64px;
+  background: var(--sky-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+}
+.speakers-placeholder-icon svg {
+  width: 30px;
+  height: 30px;
+  stroke: var(--teal);
+}
+
+.speakers-placeholder h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: .6rem;
+}
+
+.speakers-placeholder p {
+  font-size: .95rem;
+  color: var(--text-muted);
+  line-height: 1.65;
 }
 
 /* =============================================
