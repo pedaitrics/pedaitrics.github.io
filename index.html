@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PedAItrics 2026 — AI and Imaging for Childhood Diseases and Pediatric Cancers</title>
+  <meta name="description" content="MICCAI 2026 Workshop on AI and Imaging for Childhood Diseases and Pediatric Cancers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-icon">&#9632;</span>
+        <span class="logo-text">PedAItrics <span class="logo-year">2026</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#topics">Topics</a></li>
+        <li><a href="#dates">Dates</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#organizers">Organizers</a></li>
+        <li><a href="#submission" class="nav-cta">Submit Paper</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-badge">MICCAI 2026 Workshop</div>
+      <h1 class="hero-title">
+        <span class="hero-acronym">PedAItrics</span>
+      </h1>
+      <p class="hero-subtitle">AI and Imaging for Childhood Diseases and Pediatric Cancers</p>
+      <p class="hero-location">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Co-located with MICCAI 2026 &nbsp;·&nbsp; Date TBD
+      </p>
+      <div class="hero-actions">
+        <a href="#submission" class="btn btn-primary">Submit a Paper</a>
+        <a href="#about" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section section-white" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Overview</span>
+        <h2>About the Workshop</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Artificial intelligence has the potential to transform care delivery in diverse medical specialties by enabling more advanced characterization of biomedical data. However, <strong>applications in pediatrics lag behind</strong> due to the rare nature of childhood diseases and disorders, the high variability of pediatric patients due to growth and development, as well as unique clinical workflows relative to adults.
+          </p>
+          <p>
+            Pediatric diseases present distinct challenges including rapid developmental changes, smaller anatomy, motion artifacts, and the limited availability of large, well-annotated datasets. These considerations complicate tasks such as segmentation, registration, and classification, and undermine direct reuse of adult-trained models.
+          </p>
+          <p>
+            The <strong>PedAItrics workshop</strong> focuses on the application of medical imaging and artificial intelligence to pediatric, neo/prenatal, and childhood diseases, where imaging plays a central role in diagnosis and longitudinal management. It will showcase recent advances in AI integrating multimodal data — including imaging, digital pathology, -omics, and EHR data — through deep learning and classical machine learning.
+          </p>
+          <p>
+            By bringing together <strong>clinicians, imaging scientists, and AI researchers</strong>, PedAItrics aims to identify shared methodological challenges across pediatric diseases and cancers, promote reproducible and trustworthy AI, and accelerate translation into clinical practice.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-num">Half-Day</div>
+            <div class="stat-label">Workshop Duration</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">~60</div>
+            <div class="stat-label">Expected Attendees</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">~30</div>
+            <div class="stat-label">Expected Submissions</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">Springer</div>
+            <div class="stat-label">LNCS Proceedings</div>
+          </div>
+          <div class="stat-card stat-card-wide">
+            <div class="stat-label-top">Disease Areas</div>
+            <div class="stat-tags">
+              <span class="tag">Neurologic</span>
+              <span class="tag">Cardiac</span>
+              <span class="tag">Renal</span>
+              <span class="tag">Congenital</span>
+              <span class="tag">Inflammatory</span>
+              <span class="tag">Brain Tumors</span>
+              <span class="tag">Lymphoma</span>
+              <span class="tag">Rhabdomyosarcoma</span>
+              <span class="tag">Wilms Tumor</span>
+              <span class="tag">Osteosarcoma</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TOPICS ===== -->
+  <section class="section section-light" id="topics">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Scope</span>
+        <h2>Topics of Interest</h2>
+        <p class="section-desc">We welcome original research, methods, and applications addressing the following themes:</p>
+      </div>
+      <div class="topics-grid">
+        <div class="topic-card">
+          <div class="topic-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <h3>Pediatric-Specific Challenges</h3>
+          <p>Methods addressing anatomical variability, developmental changes, motion artifacts, and limited cohort sizes in the pediatric domain.</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2v-4M9 21H5a2 2 0 01-2-2v-4m0 0h18"/></svg>
+          </div>
+          <h3>Model Adaptation &amp; Transfer</h3>
+          <p>Novel algorithms or adaptations of adult-trained models for pediatric cohorts, including domain adaptation and transfer learning strategies.</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 6h16M4 12h8m-8 6h16"/><circle cx="16" cy="15" r="3"/></svg>
+          </div>
+          <h3>Multimodal Data Integration</h3>
+          <p>Combining imaging, digital pathology, -omics, and clinical EHR data for treatment response assessment, outcome prediction, and precision medicine.</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3v18h18"/><path d="M7 16l4-4 4 4 4-4"/></svg>
+          </div>
+          <h3>Small Sample &amp; Longitudinal Studies</h3>
+          <p>Approaches for small and heterogeneous datasets, longitudinal analysis, and multi-institutional data specific to the pediatric domain.</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0H5m14 0h2M5 21H3"/><path d="M9 21V9h6v12"/></svg>
+          </div>
+          <h3>Clinical Translation</h3>
+          <p>Translation and commercialization of AI solutions in pediatric care settings, including regulatory considerations and large-scale validation.</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 4v16m-8-8h16"/><circle cx="12" cy="12" r="9"/></svg>
+          </div>
+          <h3>Synthetic Data &amp; Augmentation</h3>
+          <p>Novel strategies for synthetic data generation and augmentation to address data scarcity in pediatric datasets and improve model training.</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h3>Collaboration &amp; Open Science</h3>
+          <p>Overcoming barriers in pediatric research, best practices for cross-institutional collaboration, and technical innovations enabling data sharing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== IMPORTANT DATES ===== -->
+  <section class="section section-white" id="dates">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Timeline</span>
+        <h2>Important Dates</h2>
+        <p class="section-desc">All deadlines are at 11:59 PM AoE (Anywhere on Earth) unless otherwise stated.</p>
+      </div>
+      <div class="dates-timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-label">Paper Submission Deadline</div>
+            <div class="timeline-date tbd">TBD</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-label">Notification of Acceptance</div>
+            <div class="timeline-date tbd">TBD</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-label">Camera-Ready Submission</div>
+            <div class="timeline-date tbd">TBD</div>
+          </div>
+        </div>
+        <div class="timeline-item timeline-item-last">
+          <div class="timeline-dot timeline-dot-final"></div>
+          <div class="timeline-content">
+            <div class="timeline-label">Workshop Day</div>
+            <div class="timeline-date tbd">MICCAI 2026 — Date TBD</div>
+          </div>
+        </div>
+      </div>
+      <p class="dates-note">Dates will be announced following MICCAI 2026 workshop notification. Please check back for updates.</p>
+    </div>
+  </section>
+
+  <!-- ===== PROGRAM ===== -->
+  <section class="section section-light" id="program">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Schedule</span>
+        <h2>Preliminary Program</h2>
+        <p class="section-desc">The workshop will run as a half-day event. The following is a preliminary schedule subject to change.</p>
+      </div>
+      <div class="program-table">
+        <div class="program-row program-row-header">
+          <div class="prog-time">Time</div>
+          <div class="prog-event">Event</div>
+        </div>
+        <div class="program-row">
+          <div class="prog-time">10 min</div>
+          <div class="prog-event">
+            <span class="prog-tag prog-tag-open">Opening</span>
+            Welcome and Workshop Introduction
+          </div>
+        </div>
+        <div class="program-row">
+          <div class="prog-time">1h 50 min</div>
+          <div class="prog-event">
+            <span class="prog-tag prog-tag-oral">Oral</span>
+            Oral Paper Presentations
+          </div>
+        </div>
+        <div class="program-row">
+          <div class="prog-time">30 min</div>
+          <div class="prog-event">
+            <span class="prog-tag prog-tag-break">Break</span>
+            Poster Session &amp; Coffee Break
+          </div>
+        </div>
+        <div class="program-row">
+          <div class="prog-time">45–60 min</div>
+          <div class="prog-event">
+            <span class="prog-tag prog-tag-keynote">Keynote</span>
+            Invited Keynote Address(es)
+          </div>
+        </div>
+        <div class="program-row">
+          <div class="prog-time">45 min</div>
+          <div class="prog-event">
+            <span class="prog-tag prog-tag-showcase">Showcase</span>
+            Translational Showcase — Startups &amp; Clinical Translation in Pediatric AI
+          </div>
+        </div>
+        <div class="program-row">
+          <div class="prog-time">30 min</div>
+          <div class="prog-event">
+            <span class="prog-tag prog-tag-panel">Panel</span>
+            Panel Discussion
+          </div>
+        </div>
+        <div class="program-row">
+          <div class="prog-time">10 min</div>
+          <div class="prog-event">
+            <span class="prog-tag prog-tag-close">Closing</span>
+            Closing Remarks &amp; Awards
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KEYNOTE SPEAKERS ===== -->
+  <section class="section section-white" id="speakers">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Invited Talks</span>
+        <h2>Keynote Speakers</h2>
+        <p class="section-desc">We are pleased to feature distinguished invited speakers. Additional speakers will be announced.</p>
+      </div>
+      <div class="speakers-grid">
+        <div class="speaker-card">
+          <div class="speaker-avatar">AR</div>
+          <div class="speaker-info">
+            <h3>Adam Resnick</h3>
+            <p class="speaker-affil">Children's Hospital of Philadelphia (CHOP)</p>
+          </div>
+        </div>
+        <div class="speaker-card">
+          <div class="speaker-avatar">PH</div>
+          <div class="speaker-info">
+            <h3>Pablo Hernaiz Driever</h3>
+            <p class="speaker-affil">Charité – Universitätsmedizin Berlin</p>
+          </div>
+        </div>
+        <div class="speaker-card">
+          <div class="speaker-avatar">TC</div>
+          <div class="speaker-info">
+            <h3>Tim Chou</h3>
+            <p class="speaker-affil">Pediatric Moonshot</p>
+          </div>
+        </div>
+        <div class="speaker-card">
+          <div class="speaker-avatar">AG</div>
+          <div class="speaker-info">
+            <h3>Anna Goldenberg</h3>
+            <p class="speaker-affil">Cincinnati Children's Hospital</p>
+          </div>
+        </div>
+      </div>
+      <p class="speakers-note">Speaker confirmations are pending. The list above represents preliminary invitations.</p>
+    </div>
+  </section>
+
+  <!-- ===== SUBMISSION ===== -->
+  <section class="section section-dark" id="submission">
+    <div class="container">
+      <div class="section-header section-header-light">
+        <span class="section-label section-label-light">Call for Papers</span>
+        <h2>Submit Your Work</h2>
+        <p class="section-desc section-desc-light">We invite original research contributions addressing AI and medical imaging challenges in pediatric medicine.</p>
+      </div>
+      <div class="submission-grid">
+        <div class="submission-info">
+          <h3>Paper Format</h3>
+          <ul class="submission-list">
+            <li>Papers must follow the <strong>MICCAI 2026 submission guidelines</strong> (LNCS format)</li>
+            <li>Submissions will undergo <strong>double-blind peer review</strong> with at least 2 reviewers per paper</li>
+            <li>Accepted papers will be published in <strong>Springer LNCS</strong> as part of the MICCAI 2026 Satellite Events proceedings</li>
+            <li>Outstanding papers will be selected for <strong>oral presentation</strong></li>
+            <li>Submissions managed via the <strong>OpenReview platform</strong></li>
+          </ul>
+          <h3 style="margin-top: 2rem;">Review Criteria</h3>
+          <ul class="submission-list">
+            <li>Scientific novelty and contribution</li>
+            <li>Relevance to pediatric imaging and AI</li>
+            <li>Technical rigor and reproducibility</li>
+            <li>Clinical applicability and impact</li>
+          </ul>
+        </div>
+        <div class="submission-cta">
+          <div class="cta-card">
+            <div class="cta-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <h3>Submission Portal</h3>
+            <p>Submissions will be handled via OpenReview. The link will be made available when the portal opens.</p>
+            <a href="#" class="btn btn-primary btn-disabled" aria-disabled="true">OpenReview Portal — Coming Soon</a>
+            <p class="cta-note">Submission deadline: <strong>TBD</strong></p>
+          </div>
+          <div class="cta-card cta-card-secondary">
+            <h3>Questions?</h3>
+            <p>For inquiries about the workshop, please contact the organizing committee.</p>
+            <a href="mailto:pedaitrics-workshop@googlegroups.com" class="btn btn-outline-light">Contact Organizers</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ORGANIZERS ===== -->
+  <section class="section section-white" id="organizers">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Team</span>
+        <h2>Organizing Committee</h2>
+      </div>
+      <div class="organizers-grid">
+        <div class="organizer-card">
+          <div class="organizer-avatar">SV</div>
+          <div class="organizer-info">
+            <h4>Satish Viswanath</h4>
+            <p>Emory University / Children's Healthcare of Atlanta</p>
+          </div>
+        </div>
+        <div class="organizer-card">
+          <div class="organizer-avatar">LE</div>
+          <div class="organizer-info">
+            <h4>Lauren Erdman</h4>
+            <p>Cincinnati Children's Hospital</p>
+          </div>
+        </div>
+        <div class="organizer-card">
+          <div class="organizer-avatar">AM</div>
+          <div class="organizer-info">
+            <h4>Anant Madabhushi</h4>
+            <p>Emory University</p>
+          </div>
+        </div>
+        <div class="organizer-card">
+          <div class="organizer-avatar">PT</div>
+          <div class="organizer-info">
+            <h4>Pallavi Tiwari</h4>
+            <p>University of Wisconsin-Madison</p>
+          </div>
+        </div>
+        <div class="organizer-card">
+          <div class="organizer-avatar">MI</div>
+          <div class="organizer-info">
+            <h4>Marwa Ismail</h4>
+            <p>University of Wisconsin-Madison</p>
+          </div>
+        </div>
+        <div class="organizer-card">
+          <div class="organizer-avatar">CA</div>
+          <div class="organizer-info">
+            <h4>Charlems Alvarez-Jimenez</h4>
+            <p>Colombia</p>
+          </div>
+        </div>
+        <div class="organizer-card">
+          <div class="organizer-avatar">NL</div>
+          <div class="organizer-info">
+            <h4>Natasha Lepore</h4>
+            <p>USC / Children's Hospital Los Angeles</p>
+          </div>
+        </div>
+        <div class="organizer-card">
+          <div class="organizer-avatar">ML</div>
+          <div class="organizer-info">
+            <h4>Marius Linguraru</h4>
+            <p>Children's National Hospital</p>
+          </div>
+        </div>
+        <div class="organizer-card">
+          <div class="organizer-avatar">JW</div>
+          <div class="organizer-info">
+            <h4>John Weaver</h4>
+            <p>Cleveland Clinic</p>
+          </div>
+        </div>
+        <div class="organizer-card">
+          <div class="organizer-avatar">RR</div>
+          <div class="organizer-info">
+            <h4>Rahimeh Rouhi</h4>
+            <p>Children's Hospital Los Angeles</p>
+          </div>
+        </div>
+        <div class="organizer-card">
+          <div class="organizer-avatar">SS</div>
+          <div class="organizer-info">
+            <h4>Sana Syed</h4>
+            <p>Duke University</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">PedAItrics 2026</div>
+        <p>AI and Imaging for Childhood Diseases and Pediatric Cancers<br/>A MICCAI 2026 Satellite Workshop</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://miccai.org" target="_blank" rel="noopener">MICCAI Society</a>
+        <a href="https://conferences.miccai.org/2026/" target="_blank" rel="noopener">MICCAI 2026</a>
+        <a href="#submission">Call for Papers</a>
+        <a href="#organizers">Contact</a>
+      </div>
+      <div class="footer-copy">
+        &copy; 2026 PedAItrics Workshop Organizing Committee. Co-located with MICCAI 2026.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
