@@ -831,12 +831,14 @@ img { max-width: 100%; display: block; }
   color: var(--white);
 }
 
-.submission-list a {
+.submission-list a,
+.submission-list a strong {
   color: var(--sky);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
-.submission-list a:hover {
+.submission-list a:hover,
+.submission-list a:hover strong {
   color: #7dd3fc;
 }
 
