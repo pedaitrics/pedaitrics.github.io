@@ -937,6 +937,39 @@ img { max-width: 100%; display: block; }
 }
 
 /* =============================================
+   COORDINATORS
+   ============================================= */
+.coordinators-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.coordinator-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all var(--transition);
+}
+
+.coordinator-card:hover {
+  box-shadow: var(--shadow-sm);
+  border-color: rgba(14,165,233,.3);
+}
+
+@media (max-width: 700px) {
+  .coordinators-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =============================================
    FOOTER
    ============================================= */
 .footer {
