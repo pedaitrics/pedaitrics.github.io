@@ -831,6 +831,15 @@ img { max-width: 100%; display: block; }
   color: var(--white);
 }
 
+.submission-list a {
+  color: var(--sky);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.submission-list a:hover {
+  color: #7dd3fc;
+}
+
 .cta-card {
   background: rgba(255,255,255,.06);
   border: 1px solid rgba(255,255,255,.12);
